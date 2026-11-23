@@ -1,0 +1,9 @@
+node_modules/
+.env
+!.env.example
+!demo/vulnerable-app/.env
+vibe-rescue-report.md
+vibe-rescue-report.json
+reports/
+*.bak
+.DS_Store
