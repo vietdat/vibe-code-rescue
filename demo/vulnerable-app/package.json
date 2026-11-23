@@ -1,0 +1,1 @@
+{"dependencies":{"lodahs":"4.17.21","lodash":"4.17.20","minimist":"1.2.5"},"description":"Deliberately vulnerable demo app for vibe-code-rescue. DEMO ONLY — never deploy.","main":"server.js","name":"vulnerable-demo-app","private":true,"scripts":{"start":"node server.js"},"version":"1.0.0"}
