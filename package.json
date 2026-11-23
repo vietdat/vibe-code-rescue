@@ -1,0 +1,31 @@
+{
+  "author": "vietdat",
+  "bin": {
+    "vibe-rescue": "./bin/vibe-rescue.js"
+  },
+  "description": "Audit AI-generated (vibe-coded) codebases and produce a plain-language client report with a grade.",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "security",
+    "audit",
+    "vibe-coding",
+    "code-review",
+    "agent-skill"
+  ],
+  "license": "MIT",
+  "main": "lib/audit.js",
+  "name": "vibe-code-rescue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vietdat/vibe-code-rescue"
+  },
+  "scripts": {
+    "audit-demo": "node bin/vibe-rescue.js audit demo/vulnerable-app",
+    "audit-spring": "node bin/vibe-rescue.js audit demo/spring-boot-sample",
+    "test": "node --test tests/test.js"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}
